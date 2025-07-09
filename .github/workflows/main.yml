@@ -2,7 +2,7 @@ name: Auto Grading LMS Canvas
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/1 * * * *'
   workflow_dispatch:
 
 jobs:
