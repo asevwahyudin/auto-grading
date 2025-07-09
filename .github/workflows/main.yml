@@ -2,7 +2,7 @@ name: Auto Grading LMS Canvas
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Tiap 5 menit (lebih aman & sesuai limit GitHub)
+    - cron: '*/1 * * * *'  # Tiap 5 menit (lebih aman & sesuai limit GitHub)
   workflow_dispatch:
 
 jobs:
