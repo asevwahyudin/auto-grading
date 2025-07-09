@@ -3,7 +3,7 @@ name: Auto Grading Every 5 Minutes
 on:
   schedule:
     - cron: '*/5 * * * *'  # Setiap 5 menit (pakai UTC)
-    workflow_dispatch:
+   
 jobs:
   auto-grading:
     runs-on: ubuntu-latest
