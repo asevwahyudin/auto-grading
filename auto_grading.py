@@ -3,7 +3,7 @@ print("Script sudah berjalan!")
 import requests
 
 API_URL = "https://lms.guru.kemendikdasmen.go.id/"  # ganti dengan domain Canvas kamu
-API_TOKEN = "S8q6OE6eEErGyGd8aSYK0G1KGzHk0E1sKPI4LGHpXtHpnYactbjYOLFr80kpNPAk"    # tempel Access Token di sini
+API_TOKEN = "HUEhlQlvMIbl7xkwMoYV4qySRL9BOfRdkOpTVAIcLoaJnTdVlropDLpJoaefaCgk"    # tempel Access Token di sini
 COURSE_ID = 78689                              # ganti dengan Course ID kamu
 ASSIGNMENT_ID = 2115018, 2115019                          # ganti dengan Assignment ID kamu
 
